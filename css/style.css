@@ -1,0 +1,88 @@
+html{
+    background-image: linear-gradient(#f53900, #ff0000, #f03f20, #e3054c, #c8608d);
+    height: 100%;
+  }
+  body {
+    font-family:'Courier New';
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #d25934;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f20000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  p {
+    margin-top: 20px;
+    color: #000000;
+  }
+  
+  #ip-formatado {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  #mostrar {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fcfcfc;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+  }
+  
+  #mostrar p {
+    color: #ff0000;
+  }
+  
+  @media (max-width: 480px) {
+  
+    input[type="text"],
+    button {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .container {
+      max-width: 400px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+      max-width: 800px;
+    }
+  }
